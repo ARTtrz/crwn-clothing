@@ -22,6 +22,14 @@
       }
     }
   }
+  .checkoutItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+   
+  }
 
   .total {
     margin-top: 30px;

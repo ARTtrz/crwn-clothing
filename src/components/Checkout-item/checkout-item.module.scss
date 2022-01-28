@@ -14,12 +14,16 @@
     img {
       width: 100%;
       height: 100%;
+      margin-right: 40px;
     }
   }
   .name,
   .quantity,
   .price {
     width: 23%;
+  }
+  .price{
+    margin-left: 25px;
   }
 
   .quantity {
