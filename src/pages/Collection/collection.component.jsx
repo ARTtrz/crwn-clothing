@@ -19,7 +19,7 @@ const CollectionPage = ({ collection }) => {
 	);
 };
 
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, ownProps /*collection*/) => ({
 	collection: selectCollection(ownProps.match.params.collectionId)(state)
 })
 
