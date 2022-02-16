@@ -17,6 +17,7 @@ const CollectionPageWithSpinner = WithSpinner(CollectionPage);
 const ShopPage = ({ match, fetchCollectionsStart }) => {
 
 
+
 	useEffect(() => {
 		fetchCollectionsStart();
 	}, [fetchCollectionsStart]);

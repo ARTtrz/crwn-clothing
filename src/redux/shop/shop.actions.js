@@ -10,7 +10,7 @@ export const fetchCollectionsStart = () => ({
 export const fetchCollectionsFailure = errorMessage => ({
 	type: ShopActionTypes.FETCH_COLLECTIONS_FAILURE,
 	payload: errorMessage
-})
+});
 
 export const fetchCollectionsSuccess = (collectionsMap) => ({
 	type: ShopActionTypes.FETCH_COLLECTIONS_SUCCESS,
